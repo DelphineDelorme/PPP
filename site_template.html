@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang='fr'>
+	<head>
+			<meta charset="utf-8"/>
+			<title>Site PPP - Accueil</title>
+			<link rel="Stylesheet" href="accueil.css"/>
+	</head>
+	<body>
+		<header>
+			<h1> Entreprises et organisations </h1>
+		</header>
+
+		<nav>
+			<ul>
+				{% for i in range(7) %}
+				<li><a href="{{liens[i]}}"><p>{{titre_pages[i]}}</p></a></li>
+        {% endfor %}
+			</ul>
+		</nav>
+
+		<h1>{{titre}}</h1>
+
+		<aside>
+			<a href="test.html">Faites le TEST !</a>
+		</aside>
+
+		<article>
+			Bla bla des pages... (Faudrait rédiger les textes un jour) <br/>
+		</article>
+
+		<footer>
+			Nous vous certifions qu'aucun animal n'a été maltraité pendant le travail.<br/>
+			Cependant, nous ne le certifions pas pour les étudiants...<br/>
+			IUT Orléans - Département Informatique - Adresse : 3 Rue d'Amboise, 45100 Orléans
+		</footer>
+	</body>
+</html>
