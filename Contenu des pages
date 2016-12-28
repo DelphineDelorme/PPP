@@ -1,7 +1,7 @@
 Acceuil:
-	<p>Salut, t'es en première année en d'info et tu sais pas où travailler plus tard ? <br/>
-T'hésites entre la mairie de ta ville, le boulanger du coin ou la grosse multinationale qui vient de s'installer ? <br/>
-Alors t'es au bon endroit petit père : ici on va te montrer quelles sont les différences entre les différents types <br/>
+	<p>Salut, t'es en première année en d'info et tu sais pas où travailler plus tard? <br/>
+T'hésites entre la mairie de ta ville, le boulanger du coin ou la grosse multinationale qui vient de s'installer? <br/>
+Alors t'es au bon endroit petit père: ici on va te montrer quelles sont les différences entre les différents types <br/>
 d'entreprises et ce que chacune peut t'apporter. Mais si tu as envie de savoir directement ce qui te conviendrait ou <br/>
 si tu es toujours pas sûr de ce que tu veux faire après avoir visité tout le site, on t'invite à <a href="test.html">faire le test!</a><br/>
 Bonne visite! ^^</p>
@@ -48,7 +48,10 @@ le HTML et le CSS pour l'élaboration de pages web etc mais il faut tout de mêm
 	Personnalité:
 		<p>Le truc dans les entreprises non spé, étant donné que tu es généralement embauché sous CDD, à partir du moment où tu remplis le cahier des charges <br/>
 et que tu ne poses pas de soucis à l'entreprise, ils n'ont pas vraiment de raisons de te renvoyer<p>
-		<p>Pour les ESN, c'est différent. Etant donné que les turn-over sont fréquents
+		<p>Pour les ESN, c'est différent. Etant donné que les turn-over sont fréquents (rotations en bonne franquette), le salarié doit pouvoir s'adapter au nouveau <br/>
+poste et aux nouvelles missions qui lui sont attribuées et, si jamais le salairé ne s'est pas synchronisé avec le rythme de l'entreprise au bout d'un certain temps, bye bye...<br/>
+Il faut donc savoir S'A-DA-PTER!!!<br/>
+De plus, il faut un esprit d'équipe particulièrement prononcé car, dans une ESN, on est rarement en train de travailler tout seul dans son coin.</p>
 
 Privé/public:
 
