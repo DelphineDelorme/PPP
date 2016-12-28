@@ -48,14 +48,15 @@ le HTML et le CSS pour l'élaboration de pages web etc mais il faut tout de mêm
 		<table>
 			<thead><tr><th>ESN</th><th>Non Spé</th></tr></thead>
 			<tr><td>Variété du travail</td><td>Spécialisé sur un domaine</td></tr>
-			<tr><td>
-			<tr><td>
-			<tr><td>
-			<tr><td>
-			<tr><td>
-			<tr><td>
-			<tr><td>
-			<tr><td>
+			<tr><td>Tremplins pour les jeunes</td><td>Gros recrutement</td></tr>
+			<tr><td>Promotions plus rapide du au rythme rapide</td><td>Adaptation à une seule entreprise</td></tr>
+			<tr><td>Ancienneté récompensée</td><td>Recrutement moins sélectif</td></tr>
+			<tr><td>Développement des compétences rapide</td><td>Moins de pression</td></tr>
+			<tr><td>Grande responsabilité</td></tr>
+			<tr><td>Sécurité du travail</td></tr>
+			<tr><td>Travail en équipe</td></tr>
+		</table>
+		
 			
 	Personnalité:
 		<p>Le truc dans les entreprises non spé, étant donné que tu es généralement embauché sous CDD, à partir du moment où tu remplis le cahier des charges <br/>
