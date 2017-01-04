@@ -14,7 +14,7 @@
 			<ul>
 				{% for i in range(7) %}
 				{% if titre_page[i]==titre %}
-				<li><a id=active href={{liens[i]}}><p>{{titre_pages[i]}}</p></a></li>
+				<li><a id="active" href={{liens[i]}}><p>{{titre_pages[i]}}</p></a></li>
 				{% else %}
 				<li><a href={{liens[i]}}><p>{{titre_pages[i]}}</p></a></li>
 				{% endif %}
