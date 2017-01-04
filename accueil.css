@@ -1,8 +1,7 @@
 /* ------------------ GENERALE ------------------ */
 
 body {
-    display : flex;
-    flex-wrap : wrap;
+	background-color:#E9EBEE;
 }
 
 /* ------------------ HEADER ------------------ */
@@ -11,11 +10,17 @@ header{
     background-color : lightcyan;
     flex : 1 1 100%;
     color:black;
-    margin: 0.5em;
+    margin: 1em;
     padding : 0.5em;
     text-align: center;
     line-height: 200%;
 }
+
+ header h1{
+	text-align: center;
+	font-size : -webkit-xxx-large;
+}
+
 
 /* ------------------ FOOTER ------------------ */
 
@@ -23,13 +28,23 @@ footer{
     background-color : lightcyan;
     flex : 1 1 100%;
     color:black;
-    margin: 0.5em;
-    padding : 0.5em;
+    margin-left:1em;
+    margin-right: 1em;
+    margin-top : 7em;
+    margin-bottom : 1em;
+    padding : 1em;
 }
 
 /* ------------------ NAV ------------------ */
 
 
+nav{
+	border: thin solid;
+	border-width: 1px;
+	border-collapse: collapse;
+	margin-left:10em;
+	margin-right:10em;
+}
 
 nav > ul{
     display:flex;
@@ -40,29 +55,96 @@ nav > ul{
  nav ul {
 	 margin:0 0 -12px;
 	 padding: 22px 0;
-     
  }
 
 nav li{
-    background-color: white;
+    background-color: #E9EBEE;
     flex: 1 1 10%;
     padding:10px;
-    text-align: center
-	margin:0 6px;
+    text-align: center;
+	margin:0px;
 	display: inline;  
     list-style: none; 
+    table-layout: auto;
 }
 
 
 nav p{
     color:darkgreen;
+    font-size: 1.5em;
+}
+
+nav a{
+	text-decoration: none;
+}
+
+#active{
+
+}
+
+/* ------------------ TITRE ------------------ */
+
+
+body > h1{
+	text-align: center;
+	font-size : 2.5em;
 }
 
 /* ------------------ ASIDE ------------------ */
 
 aside{
-    flex: 1 1 10%;
+    flex : 1 1 10%;
+    text-align : right;
+    margin-right : 7em;
+    font-size : 1.5em;
 }
 
+aside a {
+	color : red;
+}
 
 /* ------------------ ARTICLE ------------------ */
+
+article{
+	margin-bottom : 5em;
+	margin-left : 4em;
+	margin-top : 1.5em;
+	font-size : 1.2em;
+}
+
+/* ------------------ SECTION ------------------ */
+
+section {
+	font-size: 1.2em;
+	margin-bottom : 1em;
+	margin-left : 4em;
+	margin-right : 4em;
+	margin-top : 1em;
+}
+
+section p {
+	margin-left : 1em;
+}
+
+/* ------------------ PARAGRAPHE ------------------ */
+
+p a {
+	background-color: red;
+	color : white;
+}
+
+/* ------------------ TABLE ------------------ */
+
+table {
+	border-width: 0.1em;
+    border-style: solid;
+    border-collapse: separate;
+    margin: 1em;
+}
+
+tr, th, td{
+   border-width:0.1em;
+   border-style: solid;
+   padding:0.5em;
+   text-align:center;
+}
