@@ -109,13 +109,13 @@ article{
 	margin-bottom : 5em;
 	margin-left : 4em;
 	margin-top : 1.5em;
-	font-size : 1.2em;
+	font-size : 1.3em;
 }
 
 /* ------------------ SECTION ------------------ */
 
 section {
-	font-size: 1.2em;
+	font-size: 1.3em;
 	margin-bottom : 1em;
 	margin-left : 4em;
 	margin-right : 4em;
@@ -147,4 +147,15 @@ tr, th, td{
    border-style: solid;
    padding:0.5em;
    text-align:center;
+}
+
+/* ------------------ IMAGE ------------------ */
+
+img{
+	float:right;
+	height:75px;
+}
+
+p, img{
+	display:inline;
 }
