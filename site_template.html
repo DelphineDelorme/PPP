@@ -2,7 +2,7 @@
 <html lang='fr'>
 	<head>
 			<meta charset="utf-8"/>
-			<title>Site PPP - {{liens[i]}}</title>
+			<title>Site PPP - {{titre}}</title>
 			<link rel="Stylesheet" href="accueil.css"/>
 	</head>
 	<body>
@@ -13,7 +13,7 @@
 		<nav>
 			<ul>
 				{% for i in range(7) %}
-				<li><a href="{{liens[i]}}"><p>{{titre_pages[i]}}</p></a></li>
+				<li><a href={{liens[i]}}><p>{{titre_pages[i]}}</p></a></li>
         {% endfor %}
 			</ul>
 		</nav>
