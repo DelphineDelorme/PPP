@@ -104,7 +104,7 @@
       <?php
       echo '<p>D\'après notre super test, t\'es fait pour travailler dans une '.$res2.' entreprise '.$res1.' dans le secteur '.$res3.' !<br/></p>';
       ?>
-      <p>Non, ne nous faisons pas de remboursement pour ceux qui ne sont pas satisfaits par le résultat ^^</p>
+      <p>Et non, ne nous faisons pas de remboursement pour ceux qui ne sont pas satisfaits par le résultat ^^</p>
     </article>
 
     <footer>
