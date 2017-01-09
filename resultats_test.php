@@ -22,14 +22,34 @@
         			</ul>
 		</nav>
 
-		<h1>TEST !</h1>
+		<h1>Résultats du test !</h1>
 
     <?php
 
     $spe = 0;
     $non_spe = 0;
+    $petite = 0;
+    $grande = 0;
+    $privee = 0;
+    $public = 0;
 
-    $reponses = array ($_POST["Q1"], $_POST["Q2"], $_POST["Q3"], $_POST["Q4"], $_POST["Q5"], $_POST["Q6"], $_POST["Q7"]);
+    $reponses = array ($_POST["Q1"],
+                      $_POST["Q2"],
+                      $_POST["Q3"],
+                      $_POST["Q4"],
+                      $_POST["Q5"],
+                      $_POST["Q6"],
+                      $_POST["Q7"],
+                      $_POST["Q8"],
+                      $_POST["Q9"],
+                      $_POST["Q10"],
+                      $_POST["Q11"],
+                      $_POST["Q12"],
+                      $_POST["Q13"],
+                      $_POST["Q14"],
+                      $_POST["Q15"],
+                      $_POST["Q16"],
+                      $_POST["Q17"]);
 
     foreach ($reponses as $repX)
     {
@@ -40,27 +60,51 @@
         break;
         case "non_spe":
         $non_spe = $non_spe + 1;
+        case "petite":
+        $petite = $petite + 1;
+        case "grande":
+        $grande = $grande + 1;
+        break;
+        case "privee":
+        $privee = $privee + 1;
+        case "public":
+        $public = $public + 1;
         break;
       }
     }
 
     if ($spe>$non_spe)
     {
-      $res1 = "Entreprise spécialisée";
+      $res1 = "spécialisée";
     }
     else
     {
-      $res1 = "Entreprise non spécialisée";
+      $res1 = "non spécialisée";
+    }
+    if ($petite>$grande)
+    {
+      $res2 = "petite";
+    }
+    else
+    {
+      $res2 = "grande";
+    }
+    if ($privee>$public)
+    {
+      $res3 = "privé";
+    }
+    else
+    {
+      $res3 = "publique";
     }
 
     ?>
 
-    <h2>Résultats !</h2>
-
     <article>
       <?php
-      echo '<p>'.$res1.'</p>';
+      echo '<p>D\'après notre super test, t\'es fait pour travailler dans une '.$res2.' entreprise '.$res1.' dans le secteur '.$res3.' !<br/></p>';
       ?>
+      <p>Non, ne nous faisons pas de remboursement pour ceux qui ne sont pas satisfaits par le résultat ^^</p>
     </article>
 
     <footer>
