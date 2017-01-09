@@ -25,42 +25,91 @@
 		<h1>TEST !</h1>
 
 		<article>
-			<h2>1er test : entreprise spé ou non spé ?</h2>
       <form method="post" action="resultats_test.php">
+				 <p>
+						Comptes-tu obtenir un haut niveau d'étude théorique ou privilégier les stages et expériences plus profesionnelles lors de tes études ?<br/>
+						<input type="radio" name="Q1" value="grande" id="Q1R1" /> <label for="Q1R1">Haut niveau d'études théoriques</label><br/>
+						<input type="radio" name="Q1" value="petite" id="Q1R2" /> <label for="Q1R2">Stages et expériences professionnelles</label><br/><br/>
+				 </p>
 			   <p>
 			       Peux-tu t'adapter facilement aux différentes tâches qu'on te donne ?<br/>
-			       <input type="radio" name="Q1" value="spe" id="Q1T1R1" /> <label for="Q1R1">Oui</label><br/>
-			       <input type="radio" name="Q1" value="non_spe" id="Q1T1R2" /> <label for="Q1R2">Non</label><br/><br/>
+			       <input type="radio" name="Q2" value="spe" id="Q2R1" /> <label for="Q2R1">Oui</label><br/>
+			       <input type="radio" name="Q2" value="non_spe" id="Q2R2" /> <label for="Q2R2">Non</label><br/><br/>
 			   </p>
 				 <p>
-						 Peux-tu avoir une grande responsabilité sur tes épaules ? <br/>
-						 <input type="radio" name="Q2" value="spe" id="Q2T1R1" /> <label for="Q2R1">Oui</label><br/>
-						 <input type="radio" name="Q2" value="non_spe" id="Q2T1R2" /> <label for="Q2R2">Non</label><br/><br/>
+						 Préfères-tu travailler en étant guidé(e) ou en autonomie ?<br/>
+						 <input type="radio" name="Q3" value="petite" id="Q3R1" /> <label for="Q3R1">Guidé(e)</label><br/>
+						 <input type="radio" name="Q3" value="grande" id="Q3R2" /> <label for="Q3R2">Autonomie</label><br/><br/>
 				 </p>
 				 <p>
-						 Préfères-tu pouvoir rentrer plus facilement en entreprise ou être sur de conserver ton poste ?<br/>
-						 <input type="radio" name="Q3" value="non_spe" id="Q3T1R1" /> <label for="Q2R1">Recrutement plus facile</label><br/>
-						 <input type="radio" name="Q3" value="spe" id="Q3T1R2" /> <label for="Q2R2">Conserver ton poste</label><br/><br/>
+						 Préfères-tu avoir des opportunitées de voyager et découvrir d'autres pays/régions avec ton travail ou pouvoir retrouver l'agréable petite cheminée de ton logis le soir ?<br/>
+						 <input type="radio" name="Q4" value="privee" id="Q4R1" /> <label for="Q4R1">Voyager</label><br/>
+						 <input type="radio" name="Q4" value="public" id="Q4R2" /> <label for="Q4R2">Rentrer chez toi</label><br/><br/>
+				 </p>
+				 <p>
+						 Peux-tu avoir une grande responsabilité sur tes épaules ?<br/>
+						 <input type="radio" name="Q5" value="spe" id="Q5R1" /> <label for="Q5R1">Oui</label><br/>
+						 <input type="radio" name="Q5" value="non_spe" id="Q5R2" /> <label for="Q5R2">Non</label><br/><br/>
+				 </p>
+				 <p>
+						 Préfères-tu avoir un salaire plus important ou toucher plus de primes ?<br/>
+						 <input type="radio" name="Q6" value="privee" id="Q6R1" /> <label for="Q6R1">Salaire</label><br/>
+						 <input type="radio" name="Q6" value="public" id="Q6R2" /> <label for="Q6R2">Primes</label><br/><br/>
+				 </p>
+				 <p>
+						 Préfères-tu pouvoir rentrer plus facilement en entreprise ou être sûr(e) de conserver ton poste ?<br/>
+						 <input type="radio" name="Q7" value="non_spe" id="Q7R1" /> <label for="Q7R1">Recrutement plus facile</label><br/>
+						 <input type="radio" name="Q7" value="spe" id="Q7R2" /> <label for="Q7R2">Conserver ton poste</label><br/><br/>
+				 </p>
+				 <p>
+						 Souhaites-tu avoir un logement de fonction ?<br/>
+						 <input type="radio" name="Q8" value="privee" id="Q8R1" /> <label for="Q8R1">Oui</label><br/>
+						 <input type="radio" name="Q8" value="public" id="Q8R2" /> <label for="Q8R2">Non</label><br/><br/>
+				 </p>
+				 <p>
+						 Préferes-tu prendre des risques et avoir des responsabilités mais récolter réellement le fruit de ton travail ou avoir une situation plus stable, moins incertaine dans le futur ?<br/>
+						 <input type="radio" name="Q9" value="petite" id="Q9R1" /> <label for="Q9R1">Risques et responsabilités</label><br/>
+						 <input type="radio" name="Q9" value="grande" id="Q9R2" /> <label for="Q9R2">Situation stable</label><br/><br/>
 				 </p>
 				 <p>
 						 Aimes-tu avoir un travail varié ?<br/>
-						 <input type="radio" name="Q4" value="spe" id="Q4T1R1" /> <label for="Q2R1">Oui</label><br/>
-						 <input type="radio" name="Q4" value="non_spe" id="Q4T1R2" /> <label for="Q2R2">Non</label><br/><br/>
+						 <input type="radio" name="Q10" value="spe" id="Q10R1" /> <label for="Q10R1">Oui</label><br/>
+						 <input type="radio" name="Q10" value="non_spe" id="Q10R2" /> <label for="Q10R2">Non</label><br/><br/>
 				 </p>
 				 <p>
 						 Préfères-tu travailler seul ou en équipe ?<br/>
-						 <input type="radio" name="Q5" value="non_spe" id="Q5T1R1" /> <label for="Q2R1">Seul</label><br/>
-						 <input type="radio" name="Q5" value="spe" id="Q5T1R2" /> <label for="Q2R2">En équipe</label><br/><br/>
+						 <input type="radio" name="Q11" value="non_spe" id="Q11R1" /> <label for="Q11R1">Seul</label><br/>
+						 <input type="radio" name="Q11" value="spe" id="Q11R2" /> <label for="Q11R2">En équipe</label><br/><br/>
+				 </p>
+				 <p>
+			       Dans l'avenir, comptes-tu travailler dans une entreprise bien implantée (et pourquoi pas gravir les échelons...) ou plutôt créer ta propre entreprise ?<br/>
+			       <input type="radio" name="Q12" value="petite" id="Q12R1" /> <label for="Q12R1">Ta propre entreprise</label><br/>
+			       <input type="radio" name="Q12" value="grande" id="Q12R2" /> <label for="Q12R2">Entreprise bien implantée</label><br/><br/>
+			   </p>
+				 <p>
+						 Préfères-tu que tes cotisations sociales te coûtent moins cher ou obtenir des réductions (pour le cinéma par exemple) ?<br/>
+						 <input type="radio" name="Q13" value="public" id="Q13R1" /> <label for="Q13R1">Cotisations sociales moins chères</label><br/>
+						 <input type="radio" name="Q13" value="privee" id="Q13R2" /> <label for="Q13R2">Réductions</label><br/><br/>
+				 </p>
+				 <p>
+						 Est-ce que tu préferes toucher un peu à tous les domaines ou devenir spécialiste d'un en particulier ?<br/>
+						 <input type="radio" name="Q14" value="grande" id="Q14R1" /> <label for="Q14R1">Spécialiste</label><br/>
+						 <input type="radio" name="Q14" value="petite" id="Q14R2" /> <label for="Q14R2">Toucher à tout</label><br/><br/>
 				 </p>
 				 <p>
 						 Peux-tu supporter la pression ?<br/>
-						 <input type="radio" name="Q6" value="spe" id="Q6T1R1" /> <label for="Q2R1">Oui</label><br/>
-						 <input type="radio" name="Q6" value="non_spe" id="Q6T1R2" /> <label for="Q2R2">Non</label><br/><br/>
+						 <input type="radio" name="Q15" value="spe" id="Q15R1" /> <label for="Q15R1">Oui</label><br/>
+						 <input type="radio" name="Q15" value="non_spe" id="Q15R2" /> <label for="Q15R2">Non</label><br/><br/>
+				 </p>
+				 <p>
+						 Préfères-tu pouvoir évoluer dans ton entreprise et obtenir des promotions en risquant de pouvoir être licencié(e) ou rester au même poste mais être sûr(e) de le garder ?<br/>
+						 <input type="radio" name="Q16" value="public" id="Q16R1" /> <label for="Q16R1">Même poste</label><br/>
+						 <input type="radio" name="Q16" value="privee" id="Q16R2" /> <label for="Q16R2">Promotions</label><br/><br/>
 				 </p>
 				 <p>
 						 Peux-tu avoir un rythme de travail soutenu ?<br/>
-						 <input type="radio" name="Q7" value="spe" id="Q7T1R1" /> <label for="Q2R1">Oui</label><br/>
-						 <input type="radio" name="Q7" value="non_spe" id="Q7T1R2" /> <label for="Q2R2">Non</label><br/><br/>
+						 <input type="radio" name="Q17" value="spe" id="Q17R1" /> <label for="Q17R1">Oui</label><br/>
+						 <input type="radio" name="Q17" value="non_spe" id="Q17R2" /> <label for="Q17R2">Non</label><br/><br/>
 				 </p>
 				 <input type="submit" value="Enfin fini !"/>
 			</form>
